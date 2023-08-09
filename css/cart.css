@@ -8,14 +8,17 @@ body{
 
 .nav{
     width: 100%;
-    height: 72px;
-    padding: 20px;
+    padding: 15px;
 }
 .navbar{
     width: 100%;
-    height: 42px;
-    background-color: aqua;
+    flex-wrap: nowrap;
 }
-.nav .navbar img{
+.box-no-border{
+    background: none;
+    border: 0px;
+}
+.user{
+    border-radius: 50%;
     width: 40px;
 }
