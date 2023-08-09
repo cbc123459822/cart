@@ -22,3 +22,25 @@ body{
     border-radius: 50%;
     width: 40px;
 }
+.bell img {
+    width: 20px;
+}
+.bell {
+    margin-right: 10px;
+}
+.menu img{
+    width: 30px;
+}
+.text{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+.green{
+    color: green;
+    text-decoration: none;
+}
+.order{
+    font-size: 24px;
+}
+.
