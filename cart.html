@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/cart.css">
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/cart.css" />
 </head>
 
 <body>
@@ -15,9 +15,11 @@
     <div class="navbar d-flex justify-content-between align-items-center w-100">
       <div class="d-flex align-items-center">
         <!-- menu 漢堡條 -->
-        <button class="menu box-no-border " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+        <button class="menu box-no-border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
           aria-controls="offcanvasExample">
-          <img src="./img/menu-button.svg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-text-indent-right" viewBox="0 0 16 16">
+            <path d="M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm10.646 2.146a.5.5 0 0 1 .708.708L11.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zM2 6.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path>
+          </svg>
         </button>
         <!-- 搜尋欄 -->
         <div class="input-group rounded container-fluid">
@@ -29,13 +31,15 @@
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            Offcanvas
+          </h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-            etc.
+            Some text as placeholder. In real life you can have the elements
+            you have chosen. Like, text, images, lists, etc.
           </div>
           <div class="dropdown mt-3">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
@@ -44,25 +48,36 @@
             <ul c lass="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
       <!-- menu漢堡條結束 -->
 
-      
       <!-- 搜尋欄結束 -->
       <div class="bell-and-user d-flex flex-shrink-0">
         <!-- 小鈴鐺 -->
         <div class="btn-group">
           <button type="button" class="bell box-no-border" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="./img/bell.svg">
+            <img src="./img/bell.svg" />
           </button>
           <ul class="bell dropdown-menu dropdown-menu-end">
-            <li><button class="dropdown-item" type="button">Action</button></li>
-            <li><button class="dropdown-item" type="button">Another action</button></li>
-            <li><button class="dropdown-item" type="button">Something else here</button></li>
+            <li>
+              <button class="dropdown-item" type="button">Action</button>
+            </li>
+            <li>
+              <button class="dropdown-item" type="button">
+                Another action
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item" type="button">
+                Something else here
+              </button>
+            </li>
           </ul>
         </div>
         <!-- 小鈴鐺結束 -->
@@ -70,12 +85,22 @@
         <!-- 人物 -->
         <div class="btn-group">
           <button type="button" class="box-no-border" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="./img/avatar-1.jpg" class="user">
+            <img src="./img/avatar-1.jpg" class="user" />
           </button>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><button class="dropdown-item" type="button">Action</button></li>
-            <li><button class="dropdown-item" type="button">Another action</button></li>
-            <li><button class="dropdown-item" type="button">Something else here</button></li>
+            <li>
+              <button class="dropdown-item" type="button">Action</button>
+            </li>
+            <li>
+              <button class="dropdown-item" type="button">
+                Another action
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item" type="button">
+                Something else here
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -85,30 +110,89 @@
 
   <!-- 主體 -->
   <div class="container p-4">
-  <!-- Order List標題 -->
-  <div class="order">Order List</div>
-  <!-- Dashboard標題 -->
-  <div class="text"><a href="#" class="green">Dashboard</a>&nbsp&nbsp&nbsp/&nbsp&nbsp&nbspOrder List</div>
-  <!-- 標題結束 -->
-  <div class="big"></div>
+    <!-- Order List標題 -->
+    <div class="order">Order List</div>
+    <!-- Dashboard標題 -->
+    <div class="text">
+      <a href="#" class="green">Dashboard</a>&nbsp&nbsp&nbsp/&nbsp&nbsp&nbspOrder List
+    </div>
+    <!-- 標題結束 -->
+    <div class="big"></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- 大方塊 -->
+    <div class="big-box p-4 rounded rounded-4  border">
+      <!-- 大方塊裡的head -->
+      <div class="box-head d-flex justify-content-between">
+        <!-- head裡的搜索欄 -->
+        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+        aria-describedby="search-addon" />
+        </div>
+        <!-- 搜索欄結束 -->
+        <!-- head裡的下拉選單 -->
+        <div class="dropdown">
+          <button class="btn dropdown-toggle box-no-border bg-light box-head-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Status
+          </button>
+          <ul class="dropdown-menu box-head-dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Status</a></li>
+            <li><a class="dropdown-item" href="#">Sucess</a></li>
+            <li><a class="dropdown-item" href="#">Pending</a></li>
+            <li><a class="dropdown-item" href="#">Cancel</a></li>
+          </ul>
+        </div>
+        <!-- 下拉選單結束 -->
+        <!-- body裡的商品 -->
+        <div class="body">
+          <!-- 清單群組 -->
+          <div class="list-group overflow-x-auto">
+            <label class="list-group-item box-no-border bg-white">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Image &nbsp;&nbsp;&nbsp;&nbsp; Order Name	&nbsp;&nbsp;&nbsp;&nbsp;Customer&nbsp;&nbsp;&nbsp;&nbsp;Date & TIme	&nbsp;&nbsp;&nbsp;&nbsp;Payment&nbsp;&nbsp;&nbsp;&nbsp;Status&nbsp;&nbsp;&nbsp;&nbsp;Amount
+            </label>
+            <label class="list-group-item box-no-border bg-white">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Second checkbox
+            </label>
+            <label class="list-group-item box-no-border bg-white">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Third checkbox
+            </label>
+            <label class="list-group-item box-no-border bg-white">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Fourth checkbox
+            </label>
+            <label class="list-group-item box-no-border bg-white">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Fifth checkbox
+            </label>
+            <label class="list-group-item box-no-border bg-white">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Fifth checkbox
+            </label>
+            <label class="list-group-item box-no-border bg-white">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Fifth checkbox
+            </label>
+            <label class="list-group-item box-no-border bg-white">
+              <input class="form-check-input me-1" type="checkbox" value="">
+              Fifth checkbox
+            </label>
+            <!-- 清單結束 -->
+          </div>
+          <hr>
+          <!-- body結束 -->
+          <div class="footer d-flex align-items-center justify-content-between">
+            <span class="text">Showing 1 to 8 of 12 entries</span>
+            <div class="btn-group1">
+              <button class="btn bg-light marginR" type="submit">Previous</button>
+              <button class="btn btn btn-outline-success text marginR" type="submit">1</button>
+              <button class="btn btn btn-outline-success text marginR" type="submit">2</button>
+              <button class="btn btn btn-outline-success text marginR" type="submit">3</button>
+              <button class="btn btn btn-outline-success text marginR" type="submit">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
 
 
@@ -116,28 +200,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>

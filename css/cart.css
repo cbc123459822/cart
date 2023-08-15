@@ -43,4 +43,28 @@ body{
 .order{
     font-size: 24px;
 }
-.
+.big-box{
+    width: 100%;
+    background-color:#ffffff;
+}
+.box-head{
+    width: 100%;
+}
+.box-head-dropdown-menu{
+    width: 100%;
+    text-align:center ;
+}
+.box-head-dropdown{
+    width: 100%;
+    text-align:left;
+    margin-top: 5px;
+}
+.list-group{
+    border-radius: 0;
+}
+.footer{
+    width: 100%;
+}
+.marginR{
+    margin-right: 5px;
+}
