@@ -117,10 +117,9 @@
       <a href="#" class="green">Dashboard</a>&nbsp&nbsp&nbsp/&nbsp&nbsp&nbspOrder List
     </div>
     <!-- 標題結束 -->
-    <div class="big"></div>
 
     <!-- 大方塊 -->
-    <div class="big-box p-4 rounded rounded-4  border">
+    <div class="big-box p-4 rounded rounded-4 border mt-4">
       <!-- 大方塊裡的head -->
       <div class="box-head d-flex justify-content-between">
         <!-- head裡的搜索欄 -->
@@ -142,48 +141,288 @@
         </div>
         <!-- 下拉選單結束 -->
         <!-- body裡的商品 -->
-        <div class="body">
+        <div class="body mt-3">
           <!-- 清單群組 -->
-          <div class="list-group overflow-x-auto">
-            <label class="list-group-item box-no-border bg-white">
-              <input class="form-check-input me-1" type="checkbox" value="">
-              Image &nbsp;&nbsp;&nbsp;&nbsp; Order Name	&nbsp;&nbsp;&nbsp;&nbsp;Customer&nbsp;&nbsp;&nbsp;&nbsp;Date & TIme	&nbsp;&nbsp;&nbsp;&nbsp;Payment&nbsp;&nbsp;&nbsp;&nbsp;Status&nbsp;&nbsp;&nbsp;&nbsp;Amount
-            </label>
-            <label class="list-group-item box-no-border bg-white">
-              <input class="form-check-input me-1" type="checkbox" value="">
-              Second checkbox
-            </label>
-            <label class="list-group-item box-no-border bg-white">
-              <input class="form-check-input me-1" type="checkbox" value="">
-              Third checkbox
-            </label>
-            <label class="list-group-item box-no-border bg-white">
-              <input class="form-check-input me-1" type="checkbox" value="">
-              Fourth checkbox
-            </label>
-            <label class="list-group-item box-no-border bg-white">
-              <input class="form-check-input me-1" type="checkbox" value="">
-              Fifth checkbox
-            </label>
-            <label class="list-group-item box-no-border bg-white">
-              <input class="form-check-input me-1" type="checkbox" value="">
-              Fifth checkbox
-            </label>
-            <label class="list-group-item box-no-border bg-white">
-              <input class="form-check-input me-1" type="checkbox" value="">
-              Fifth checkbox
-            </label>
-            <label class="list-group-item box-no-border bg-white">
-              <input class="form-check-input me-1" type="checkbox" value="">
-              Fifth checkbox
-            </label>
+        <div class="table-responsive">
+          <table class="table table-centered table-hover text-nowrap table-borderless mb-0 table-with-checkbox">
+            <thead class="bg-secondary">
+            <tr>
+            <th>
+              <div class="form-check">
+                <input type="checkbox">
+              </div>
+            </th>
+            <th scope="col" class="text">Image</th>
+            <th scope="col" class="text">Order Name</th>
+            <th scope="col" class="text">Customer</th>
+            <th scope="col" class="text">Date & Time</th>
+            <th scope="col" class="text">Payment</th>
+            <th scope="col" class="text">Status</th>
+            <th scope="col" class="text">Amount</th>
+            </tr>
+          </thead>
+          <tbody class="text">
+            <tr>
+              <td>
+                <div class="form-check">
+                  <input type="checkbox">
+                </div>
+              </td>
+              <td>
+                <img src="./img/list-img/product-img-1.jpg" alt="" class="listImg">
+              </td>
+              <td><a href="#" class="text textnodecoration">FC#1007</a></td>
+              <td class="text-secondary">Jennifer Sullivan</td>
+              <td class="text-secondary">01 May 2023 (10:12 am)</td>
+              <td class="text-secondary">Paypal</td>
+              <td><div class="Success">Success</div></td>
+              <td class="text-secondary">$12.99</td>
+              <td>
+                <div class="dropdown">
+                  <a class="text" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                      </svg>Delete</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+                      </svg>Edit</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="form-check">
+                  <input type="checkbox">
+                </div>
+              </td>
+              <td>
+                <img src="./img/list-img/product-img-2.jpg" alt="" class="listImg">
+              </td>
+              <td><a href="#" class="text textnodecoration">FC#1006</a></td>
+              <td class="text-secondary">Willie Hanson</td>
+              <td class="text-secondary">20 April 2023 (9:20 am)</td>
+              <td class="text-secondary">COD</td>
+              <td><div class="Success">Success</div></td>
+              <td class="text-secondary">$8.19</td>
+              <td>
+                <div class="dropdown">
+                  <a class="text" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                      </svg>Delete</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+                      </svg>Edit</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="form-check">
+                  <input type="checkbox">
+                </div>
+              </td>
+              <td>
+                <img src="./img/list-img/product-img-3.jpg" alt="" class="listImg">
+              </td>
+              <td><a href="#" class="text textnodecoration">FC#1005</a></td>
+              <td class="text-secondary">Dori Stewart</td>
+              <td class="text-secondary">11 March 2023 (7:12 pm)</td>
+              <td class="text-secondary">Paypal</td>
+              <td><div class="Pending">Pending</div></td>
+              <td class="text-secondary">$8.19</td>
+              <td>
+                <div class="dropdown">
+                  <a class="text" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                      </svg>Delete</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+                      </svg>Edit</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="form-check">
+                  <input type="checkbox">
+                </div>
+              </td>
+              <td>
+                <img src="./img/list-img/product-img-4.jpg" alt="" class="listImg">
+              </td>
+              <td><a href="#" class="text textnodecoration">FC#1004</a></td>
+              <td class="text-secondary">Ezekiel Rogerson </td>
+              <td class="text-secondary">09 March 2023 (6:23 pm)</td>
+              <td class="text-secondary">Stripe</td>
+              <td><div class="Success">Success</div></td>
+              <td class="text-secondary">$23.11</td>
+              <td>
+                <div class="dropdown">
+                  <a class="text" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                      </svg>Delete</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+                      </svg>Edit</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="form-check">
+                  <input type="checkbox">
+                </div>
+              </td>
+              <td>
+                <img src="./img/list-img/product-img-5.jpg" alt="" class="listImg">
+              </td>
+              <td><a href="#" class="text textnodecoration">FC#1003</a></td>
+              <td class="text-secondary">Maria Roux</td>
+              <td class="text-secondary">18 Feb 2022 (12:20 pm)</td>
+              <td class="text-secondary">COD</td>
+              <td><div class="Success">Success</div></td>
+              <td class="text-secondary">$2.00</td>
+              <td>
+                <div class="dropdown">
+                  <a class="text" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                      </svg>Delete</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+                      </svg>Edit</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="form-check">
+                  <input type="checkbox">
+                </div>
+              </td>
+              <td>
+                <img src="./img/list-img/product-img-6.jpg" alt="" class="listImg">
+              </td>
+              <td><a href="#" class="text textnodecoration">FC#1002</a></td>
+              <td class="text-secondary">Robert Donald</td>
+              <td class="text-secondary">12 Feb 2022 (4:56 pm)</td>
+              <td class="text-secondary">Paypal</td>
+              <td><div class="Cancel">Cancel</div></td>
+              <td class="text-secondary">$56.00</td>
+              <td>
+                <div class="dropdown">
+                  <a class="text" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                      </svg>Delete</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+                      </svg>Edit</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="form-check">
+                  <input type="checkbox">
+                </div>
+              </td>
+              <td>
+                <img src="./img/list-img/product-img-7.jpg" alt="" class="listImg">
+              </td>
+              <td><a href="#" class="text textnodecoration">FC#1001</a></td>
+              <td class="text-secondary">Diann Watson</td>
+              <td class="text-secondary">22 Jan 2023 (1:20 pm)</td>
+              <td class="text-secondary">Paypal</td>
+              <td><div class="Success">Success</div></td>
+              <td class="text-secondary">$23.00</td>
+              <td>
+                <div class="dropdown">
+                  <a class="text" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                      </svg>Delete</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+                      </svg>Edit</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+        </div>
             <!-- 清單結束 -->
           </div>
           <hr>
           <!-- body結束 -->
-          <div class="footer d-flex align-items-center justify-content-between">
+          <div class="footer align-items-center text-nowrap">
             <span class="text">Showing 1 to 8 of 12 entries</span>
-            <div class="btn-group1">
+            <div class="btn-group1 text-nowrap">
               <button class="btn bg-light marginR" type="submit">Previous</button>
               <button class="btn btn btn-outline-success text marginR" type="submit">1</button>
               <button class="btn btn btn-outline-success text marginR" type="submit">2</button>
