@@ -9,6 +9,8 @@ body{
 .nav{
     width: 100%;
     padding: 15px;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
 }
 .navbar{
     width: 100%;
@@ -27,6 +29,7 @@ body{
 }
 .bell {
     margin-right: 10px;
+    width: ;
 }
 .menu img{
     width: 30px;
@@ -148,4 +151,37 @@ body{
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+.bellNav{
+    width: 350px;
+}
+.bellpos{
+    margin-right: 10px;
+}
+.bellBody img{
+    width: 40px;
+    border-radius: 50%;
+}
+.circleMark{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: green;
+    margin-right: 10px;
+}
+.bellgray{
+    background-color: #ecf0ef;
+}
+.belltext{
+    font-size: 14px;
+}
+.belltextsm{
+    font-size: 12px;
+    color: #808d94;
+}
+.bellcolor{
+    background-color: #f0f3f2;
+}
+.viewAll{
+    color: #0aad0a;
 }
