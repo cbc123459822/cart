@@ -187,11 +187,19 @@ body{
 .viewAll{
     color: #0aad0a;
 }
-@media (min-width: 1200px) { /* Apply styles only when screen width is at least 1200px (xl size) */
-    .menu-offcanvas {
-        display: none; /* Hide the offcanvas menu */
-    }
-    .offcanvas-body {
-        width: auto; /* Let the offcanvas-body content determine its width */
-    }
+.menu-hide{
+    width: 280px;
+    display: none;
+    height: 100vh;
 }
+
+@media (min-width: 1200px) {
+    .menu-hide{
+        display: block;
+    }
+    .content{
+      display: grid;
+      grid-template-columns: 1fr 6fr;
+      border: 1px;
+    }
+  }
