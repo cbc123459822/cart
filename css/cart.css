@@ -138,6 +138,10 @@ body{
     background-color: #f0f3f2;
     border-radius: 5px;
 }
+:hover.dropdown-item{
+    background-color: #f0f3f2;
+    border-radius: 5px;
+}
 .menutext{
     font-size: 12px;
     color: gray;
